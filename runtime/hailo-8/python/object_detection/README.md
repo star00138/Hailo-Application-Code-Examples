@@ -111,6 +111,9 @@ Example
 ./object_detection.py -n ./yolov8n.hef -i input_folder
 ```
 
+**Inference on Raspberry Pi camera with HTTP streaming**
+- Use `http_streaming_detection.py` for MJPEG output. See [RASPBERRY_PI_HTTP_STREAMING.md](./RASPBERRY_PI_HTTP_STREAMING.md) for setup and command-line examples.
+
 🔧 Visualization and Tracking Configuration
 -------------------------------------------
 The application supports flexible configuration for how detections and tracking results are visualized. These settings can be modified in the configuration file to adjust the appearance of detection outputs and the behavior of the object tracker.
